@@ -1,0 +1,6 @@
+- name: Build Base Image
+  type: serial
+  steps:
+    - service: app
+      command: true
+
